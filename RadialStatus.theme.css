@@ -14,19 +14,19 @@
   /*
     * Spacing
     */
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 2px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 3px; /* Gap between avatar and status for User profiles | MUST end in px */
   /*
     * Widths
     */
-  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+  --rs-small-width: 1px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 2px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
   /*
     * Shape
     */
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-avatar-shape: 5%; /* 50% for round - 0% for square */
   /*
     * Colours
     */
@@ -43,5 +43,5 @@
   /*
     * Others
     */
-  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
